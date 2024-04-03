@@ -44,9 +44,17 @@ export const httpRouterServiceFactory = createServiceFactory(
       config: coreServices.rootConfig,
       lifecycle: coreServices.lifecycle,
       rootHttpRouter: coreServices.rootHttpRouter,
+      auth: coreServices.auth,
       httpAuth: coreServices.httpAuth,
     },
-    async factory({ httpAuth, config, plugin, rootHttpRouter, lifecycle }) {
+    async factory({
+      config,
+      plugin,
+      rootHttpRouter,
+      lifecycle,
+      auth,
+      httpAuth,
+    }) {
       let hasRegistedCookieAuthRefreshMiddleware = false;
       const getPath = options?.getPath ?? (id => `/api/${id}`);
       const path = getPath(plugin.getId());
@@ -71,7 +79,7 @@ export const httpRouterServiceFactory = createServiceFactory(
           ) {
             // Only add the cookie refresh middleware once
             hasRegistedCookieAuthRefreshMiddleware = true;
-            router.use(createCookieAuthRefreshMiddleware({ httpAuth }));
+            router.use(createCookieAuthRefreshMiddleware({ auth, httpAuth }));
           }
         },
       };
