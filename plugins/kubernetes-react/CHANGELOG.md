@@ -1,5 +1,11 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.3.4-next.1
+
+### Patch Changes
+
+- e6d474f: Fixed ResourceUtilization component for POD Memory Limits
+
 ## 0.3.4-next.0
 
 ### Patch Changes

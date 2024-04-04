@@ -1,5 +1,15 @@
 # @backstage/plugin-scaffolder
 
+## 1.19.3-next.1
+
+### Patch Changes
+
+- 605c971: Allow the task list search to work on the Scaffolder template title.
+- 87d2eb8: Updated dependency `json-schema-library` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/plugin-scaffolder-react@1.8.4-next.1
+  - @backstage/core-compat-api@0.2.4-next.0
+
 ## 1.19.3-next.0
 
 ### Patch Changes

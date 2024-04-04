@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog
 
+## 1.19.0-next.1
+
+### Patch Changes
+
+- bcb2674: Added a "create something similar" button to the `<AboutCard>` that is visible and links to the scaffolder template corresponding to the entity's `backstage.io/source-template` annotation, if present.
+- Updated dependencies
+  - @backstage/core-compat-api@0.2.4-next.0
+
 ## 1.19.0-next.0
 
 ### Minor Changes

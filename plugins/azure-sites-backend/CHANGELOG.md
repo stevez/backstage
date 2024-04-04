@@ -1,5 +1,15 @@
 # @backstage/plugin-azure-sites-backend
 
+## 0.3.4-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.6.17-next.1
+  - @backstage/backend-common@0.21.7-next.1
+  - @backstage/plugin-permission-node@0.7.28-next.1
+  - @backstage/plugin-catalog-node@1.11.1-next.1
+
 ## 0.3.4-next.0
 
 ### Patch Changes

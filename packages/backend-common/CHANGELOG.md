@@ -1,5 +1,15 @@
 # @backstage/backend-common
 
+## 0.21.7-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-app-api@0.7.0-next.1
+  - @backstage/plugin-auth-node@0.4.12-next.1
+  - @backstage/backend-plugin-api@0.6.17-next.1
+  - @backstage/config-loader@1.8.0-next.0
+
 ## 0.21.7-next.0
 
 ### Patch Changes

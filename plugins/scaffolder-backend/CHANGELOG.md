@@ -1,5 +1,28 @@
 # @backstage/plugin-scaffolder-backend
 
+## 1.22.4-next.1
+
+### Patch Changes
+
+- f34a9b1: The `catalog:write` action now automatically adds a `backstage.io/template-source` annotation, indicating which Scaffolder template was used to create the entity.
+- Updated dependencies
+  - @backstage/plugin-auth-node@0.4.12-next.1
+  - @backstage/backend-plugin-api@0.6.17-next.1
+  - @backstage/backend-common@0.21.7-next.1
+  - @backstage/plugin-permission-node@0.7.28-next.1
+  - @backstage/backend-tasks@0.5.22-next.1
+  - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.15-next.1
+  - @backstage/plugin-catalog-node@1.11.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3-next.1
+  - @backstage/plugin-scaffolder-node@0.4.3-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.9-next.1
+
 ## 1.22.4-next.0
 
 ### Patch Changes

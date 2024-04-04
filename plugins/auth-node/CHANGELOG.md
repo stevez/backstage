@@ -1,5 +1,14 @@
 # @backstage/plugin-auth-node
 
+## 0.4.12-next.1
+
+### Patch Changes
+
+- d62bc51: Add `tokenTypes` export with constants for various Backstage token types.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.6.17-next.1
+  - @backstage/backend-common@0.21.7-next.1
+
 ## 0.4.12-next.0
 
 ### Patch Changes

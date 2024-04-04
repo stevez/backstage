@@ -1,5 +1,24 @@
 # @backstage/backend-app-api
 
+## 0.7.0-next.1
+
+### Minor Changes
+
+- 3256f14: **BREAKING**: Modules are no longer loaded unless the plugin that they extend is present.
+
+### Patch Changes
+
+- 54f2ac8: Added `initialization` option to `createServiceFactory` which defines the initialization strategy for the service. The default strategy mimics the current behavior where plugin scoped services are initialized lazily by default and root scoped services are initialized eagerly.
+- d62bc51: Add support for limited user tokens by using user identity proof provided by the auth backend.
+- Updated dependencies
+  - @backstage/plugin-auth-node@0.4.12-next.1
+  - @backstage/backend-plugin-api@0.6.17-next.1
+  - @backstage/backend-common@0.21.7-next.1
+  - @backstage/plugin-permission-node@0.7.28-next.1
+  - @backstage/backend-tasks@0.5.22-next.1
+  - @backstage/cli-node@0.2.4
+  - @backstage/config-loader@1.8.0-next.0
+
 ## 0.6.3-next.0
 
 ### Patch Changes

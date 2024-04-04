@@ -1,5 +1,12 @@
 # @backstage/plugin-octopus-deploy
 
+## 0.2.16-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-scaffolder-react@1.8.4-next.1
+
 ## 0.2.16-next.0
 
 ### Patch Changes

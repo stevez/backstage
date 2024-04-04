@@ -1,5 +1,24 @@
 # example-app
 
+## 0.2.96-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog@1.19.0-next.1
+  - @backstage/plugin-scaffolder@1.19.3-next.1
+  - @backstage/plugin-scaffolder-react@1.8.4-next.1
+  - @backstage/plugin-api-docs@0.11.4-next.1
+  - @backstage/plugin-catalog-graph@0.4.4-next.0
+  - @backstage/plugin-explore@0.4.20-next.0
+  - @backstage/plugin-org@0.6.24-next.0
+  - @backstage/plugin-user-settings@0.8.5-next.0
+  - @backstage/plugin-kubernetes@0.11.9-next.1
+  - @backstage/plugin-kubernetes-cluster@0.0.10-next.1
+  - @backstage/cli@0.26.3-next.0
+  - @backstage/plugin-octopus-deploy@0.2.16-next.1
+  - @backstage/plugin-techdocs-module-addons-contrib@1.1.9-next.0
+
 ## 0.2.96-next.0
 
 ### Patch Changes
